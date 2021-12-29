@@ -11,4 +11,4 @@ command_map = {
     'cha' : get_change.get_change
 }
 
-token = 'NzY4OTM1MTcxMzY1NjY2ODE2.X5Hsrg.YsAJLJGMiUfcnp_mnW1VYXSsVT0'
+token = '<token>'
