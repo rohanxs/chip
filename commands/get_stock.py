@@ -7,7 +7,7 @@ def get_stock(args : list):
     try:
         _price, _change, _per_change, _open, _prev_close = (
             get_price(stock_name),
-            get_change(stock_name),
+            round(get_change(stock_name), 2),
             get_percent_change(stock_name),
             get_open(stock_name),
             get_previous_close(stock_name)
