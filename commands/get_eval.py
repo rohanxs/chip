@@ -14,7 +14,7 @@ def get_eval(args : list):
         return Embed(
             title = "Stock Not Found",
             description = "The stock in your query was not found.",
-            color = 0x7842f5
+            color = Color.red()
         )
 
     evaluation = round(float(scraped_text[

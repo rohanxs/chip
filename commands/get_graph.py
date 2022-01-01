@@ -1,4 +1,4 @@
-from discord import Embed
+from discord import Embed, Color
 from requests import get
 
 def get_graph(args : list):
@@ -13,7 +13,7 @@ def get_graph(args : list):
         embed = Embed(
             title = "Stock Not Found",
             description = "The stock in your query was not found.",
-            color = 0x7842f5
+            color = Color.red()
         )
         embed.set_author(
             name = "Chip",

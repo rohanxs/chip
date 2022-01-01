@@ -9,9 +9,7 @@ def get_help(args : list):
             "`$info <query>` : Returns information about the query.\n"
             "`$eval <stock>` : Checks profitability of a stock.\n"
             "`$graph <stock>` : Gives detailed graph of a stock's price history.\n"
-            "`$price <stock>` : Returns the price of a certain stock.\n"
-            "`$day <stock>` : Returns opening and closing prices on that day.\n"
-            "`$chance <stock>` : Returns information about price change.\n"
+            "`$stock <stock>` : Returns information about price change."
         ),
         color = 0x7842f5
     )

@@ -20,7 +20,7 @@ def get_info(args : list):
         embed = Embed(
             title = "Query Error",
             description = "No such article found!",
-            color = 0x7842f5
+            color = Color.red()
         )
-
+        
     return embed
