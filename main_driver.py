@@ -12,10 +12,10 @@ async def on_ready():
 @client.event 
 async def on_message(message): 
     await client.wait_until_ready()
+    
     if not (message.content.startswith('$')): return
 
     command = message.content.split(' ')[0][1:4]
-
     try: args = message.content.split(' ')[1:]
     except: args = []
 

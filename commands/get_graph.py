@@ -28,7 +28,7 @@ def get_graph(args : list):
     chart = f"https://stockcharts.com/c-sc/sc?s={stock_name.lower()}&p=D&b=5&g=0&i=0"
 
     embed = Embed(
-        title = "Stock Graph",
+        title = "Graph of Stock `{stock_name}`",
         description = f"Graph for stock `{stock_name}` over the past six months:",
         color = 0x7842f5,
         url = chart

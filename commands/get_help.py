@@ -8,8 +8,8 @@ def get_help(args : list):
             "`$inv` : Retrieves invite link to the bot.\n"
             "`$info <query>` : Returns information about the query.\n"
             "`$eval <stock>` : Checks profitability of a stock.\n"
-            "`$graph <stock>` : Gives detailed graph of a stock's price history.\n"
-            "`$stock <stock>` : Returns information about price change."
+            "`$graph <stock>` : Gives detailed graph the price of a stock.\n"
+            "`$stock <stock>` : Returns information about a stock."
         ),
         color = 0x7842f5
     )

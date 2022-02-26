@@ -28,7 +28,7 @@ def get_eval(args : list):
         )
         color = Color.red()
 
-    elif (evaluation < 0.33):
+    elif (evaluation < 0.5):
         description = (
             f"The `{stock_name}` stock has an evaluation score of `{evaluation}`, "
             "meaning the stock may possibly rise in the near future."

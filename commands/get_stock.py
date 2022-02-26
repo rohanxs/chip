@@ -6,19 +6,19 @@ def get_stock(args : list):
 
     try:
         _price, _change, _per_change, _open, _prev_close = (
-            get_price(stock_name),
+            round(get_price(stock_name), 2),
             round(get_change(stock_name), 2),
-            get_percent_change(stock_name),
-            get_open(stock_name),
-            get_previous_close(stock_name)
+            round(get_percent_change(stock_name), 2),
+            round(get_open(stock_name), 2),
+            round(get_previous_close(stock_name), 2)
         )
 
         embed = Embed(
-            title = "Stock Information",
+            title = f"Information About Stock `{stock_name}`",
             description = (
-                f"Stock Price: `${_price}`\n"
-                f"Change in Price: `${_change}`\n"
-                f"Percent Change in Price: `%{_per_change}`\n"
+                f"\nStock Price: `${_price}`\n"
+                f"Price Change: `${_change}`\n"
+                f"Percent Price Change: `{_per_change}%`\n"
                 f"Opening Price: `${_open}`\n"
                 f"Previous Closing Price: `${_prev_close}`"
             ),

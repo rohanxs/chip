@@ -9,4 +9,4 @@ command_map = {
     'sto' : get_stock.get_stock
 }
 
-token = '<token>'
+token = 'ODk5ODAzMDE2NDE5NDg3Nzk0.YW4E3A.5iotQAV6BQPgvZ70fJilj4WkBLQ'
